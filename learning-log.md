@@ -13,6 +13,11 @@ Linear algebra, calculus, and probability form the core mathematical foundation 
 
 ---
 
+## 27 February 
+- Revision
+- Extended Vectors Concept With Probability
+- Plan About A linear Regression Model Using matplotlib in python
+- Will plan to initiate Linear Regression Model on the 28th
 ## Current Focus
 
 - Strengthen conceptual clarity
