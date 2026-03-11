@@ -72,3 +72,43 @@ Today focused on conceptual consolidation and project structuring rather than in
 - Strengthen conceptual clarity
 - Maintain consistent daily progress
 - Prioritize understanding over speed
+
+
+## 11 March
+
+### Focus
+Implementation of Linear Regression from mathematical foundations.
+
+### Work Completed
+- Structured the machine-learning section of the repository
+- Implemented linear regression using the **Normal Equation**
+- Implemented **Gradient Descent** framework for optimizing regression parameters
+- Created the main script integrating:
+  - dataset loading
+  - regression computation
+  - visualization using matplotlib
+  - user input prediction
+- Added dataset (`data.csv`) for regression experimentation
+- Documented calculus concepts required for optimization:
+  - derivatives
+  - partial derivatives
+  - gradient vector
+  - chain rule
+  - gradient descent
+  - mean squared error cost function
+
+### Key Mathematical Insight
+Linear regression can be solved in two fundamental ways:
+
+**Closed-form solution (Normal Equation)**
+
+\beta = (X^T X)^{-1} X^T y
+
+**Iterative optimization (Gradient Descent)**
+
+\theta = \theta - \alpha \nabla J(\theta)
+
+Both methods aim to minimize the **Mean Squared Error** cost function.
+
+### Reflection
+Today marked the transition from pure mathematical study (linear algebra and calculus) to practical machine learning implementation. Understanding how matrix operations and derivatives translate directly into algorithms made the learning process more concrete.
