@@ -112,3 +112,16 @@ Both methods aim to minimize the **Mean Squared Error** cost function.
 
 ### Reflection
 Today marked the transition from pure mathematical study (linear algebra and calculus) to practical machine learning implementation. Understanding how matrix operations and derivatives translate directly into algorithms made the learning process more concrete.
+
+## 12 March
+
+Focus: Optimization behavior of Linear Regression.
+
+- Implemented loss tracking during gradient descent
+- Visualized learning curve (loss vs iterations)
+- Compared regression parameters from normal equation and gradient descent
+- Expanded dataset to improve regression demonstration
+- Strengthened understanding of optimization in machine learning
+
+Key insight:
+Gradient descent gradually approaches the same solution as the normal equation while minimizing the loss function over iterations.
