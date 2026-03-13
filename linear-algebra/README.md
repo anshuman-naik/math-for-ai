@@ -27,3 +27,15 @@ Planned topics include:
 
 Each concept is documented in a separate file and expanded as understanding
 deepens.
+
+## Application in Machine Learning
+
+Linear algebra concepts are directly applied in the implementation of the linear regression model contained in the machine-learning repository.
+
+Key usage includes:
+
+- Matrix representation of datasets
+- Matrix multiplication for predictions
+- Normal equation for solving regression parameters
+
+β = (XᵀX)⁻¹Xᵀy
