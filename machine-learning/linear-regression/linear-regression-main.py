@@ -27,21 +27,18 @@ y_pred_normal = X @ beta
 # Gradient descent predictions
 y_pred_gd = X @ beta_gd
 
-# Plot
+sorted_idx = np.argsort(df["Hours"])
+hours_sorted = df["Hours"].values[sorted_idx]
+y_normal_sorted = y_pred_normal[sorted_idx]
+y_gd_sorted = y_pred_gd[sorted_idx]
+
 plt.scatter(df["Hours"], df["Score"], label="Data")
 
-# Normal equation line
-plt.plot(df["Hours"], y_pred_normal, label="Normal Equation", linewidth=2)
+plt.plot(hours_sorted, y_normal_sorted, label="Normal Equation", linewidth=2)
 
-# Gradient descent line
-plt.plot(df["Hours"], y_pred_gd, label="Gradient Descent", linestyle="dashed")
-
-plt.xlabel("Hours Studied")
-plt.ylabel("Exam Score")
-plt.title("Linear Regression Comparison")
+plt.plot(hours_sorted, y_gd_sorted, label="Gradient Descent", linestyle="dashed")
 
 plt.legend()
-
 plt.show()
 
 # User prediction
