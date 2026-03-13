@@ -125,3 +125,10 @@ Focus: Optimization behavior of Linear Regression.
 
 Key insight:
 Gradient descent gradually approaches the same solution as the normal equation while minimizing the loss function over iterations.
+
+## 13 March
+
+- Expanded regression dataset to 30 samples
+- Improved visualization of regression trend
+- Observed more stable gradient descent convergence
+- Compared regression outputs from normal equation and gradient descent on larger dataset
