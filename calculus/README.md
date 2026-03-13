@@ -23,3 +23,15 @@ Planned topics include:
 - Connections to optimization and learning algorithms are highlighted
 
 Each concept is documented in a separate file and expanded progressively.
+
+## Application in Machine Learning
+
+Calculus concepts are used to optimize machine learning models.
+
+In the linear regression project, gradient descent is used to minimize the loss function.
+
+Update rule:
+
+θ = θ − α∇J(θ)
+
+Where the gradient indicates the direction of steepest increase of the loss function.
