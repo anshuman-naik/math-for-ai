@@ -132,3 +132,16 @@ Gradient descent gradually approaches the same solution as the normal equation w
 - Improved visualization of regression trend
 - Observed more stable gradient descent convergence
 - Compared regression outputs from normal equation and gradient descent on larger dataset
+
+Focused primarily on expanding the linear regression implementation in the machine-learning repository.
+
+Activities included:
+- expanding the dataset
+- visualizing convergence of gradient descent
+- comparing normal equation and gradient descent solutions
+
+Reflected on how previously studied mathematical topics connect to the implementation:
+
+Linear Algebra → matrix operations for regression  
+Calculus → gradient descent optimization  
+Probability → future modeling of uncertainty
