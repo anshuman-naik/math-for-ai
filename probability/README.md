@@ -25,3 +25,13 @@ Probability is essential in AI because:
 
 The goal is to understand probability as a language for uncertainty,
 not just as a collection of formulas.
+
+## Application in Machine Learning
+
+Probability theory provides the theoretical basis for modeling uncertainty in machine learning systems.
+
+While the current regression project focuses on deterministic optimization, probability becomes central in:
+
+- Bayesian models
+- Probabilistic graphical models
+- Statistical learning theory
