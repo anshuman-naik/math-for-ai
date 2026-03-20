@@ -145,3 +145,19 @@ Reflected on how previously studied mathematical topics connect to the implement
 Linear Algebra → matrix operations for regression  
 Calculus → gradient descent optimization  
 Probability → future modeling of uncertainty
+
+
+
+
+## 20 March
+
+Focus: Optimization analysis and model behavior.
+
+- Conducted experiments with different learning rates in gradient descent
+- Visualized convergence behavior for multiple learning rates
+- Introduced noise into dataset to simulate real-world conditions
+- Compared model performance using Mean Squared Error
+- Observed stability and convergence differences across learning rates
+
+Key insight:
+The learning rate critically affects convergence. Too small leads to slow learning, while too large causes instability. Proper tuning is essential for effective optimization.
